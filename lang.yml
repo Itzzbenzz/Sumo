@@ -1,0 +1,85 @@
+PREFIX: '&8[&cSumo&8] '
+VERSION: '&eYou are currently using the Sumo version %version%. It is advised to always
+  use the latest version.'
+HELP_MENU_TITLE: '&8=====> &2Sumo Help &7(%page%/%maxpage%) &8<====='
+HELP_ENTRY: '&a%cmd% &7%desc%'
+SUMO_LIST_TITLE: '&8=====> &2Current Sumos &8<====='
+SUMO_LIST_ENTRY: '&a- &7%sumo%'
+LEFT_DURING_MATCH: '&cYou have left Sumo.'
+LEAVE_SUMO: '&6%player% &ehas left Sumo (&6%players%/%maxplayers%&e).'
+MATCH_STARTING: '&eYour match is starting against %player%! (Round: &a%round%&e)'
+LOST_MATCH: '&cYou have been knocked out by %player%.'
+WON_MATCH: '&aYou have won against %player%!'
+FIGHTING_PLAYERS: '&eMatch starting! &a%player1% &evs &a%player2% &e(Round: &a%round%&e)'
+WON_SUMO: '&6%player% &ehas won the Sumo event!'
+TIME_LEFT: '&eThe Sumo event in %sumo% is starting in &6%time% &eseconds. Do &6/Sumo
+  join &eto join the event.'
+JOIN_SUMO: '&6%player% &ehas joined Sumo (&6%players%/%maxplayers%&e).'
+ENTER_SPECTATE: '&eYou are now in spectate mode.'
+NEXT_SCHEDULED_NAME: '%sumo%'
+NEXT_SCHEDULE: '&aStarting on %day%/%month% at %hour%:%minute%.'
+STARTED_SUMO: '&6%player% &ehas just started a Sumo event in %sumo%. This will begin
+  in &6%time% &eseconds. Type &6/Sumo join %sumo% &eto join the event.'
+IN_COMBAT: '&cYou have recently been in combat, please wait &6%time% &cseconds to
+  join Sumo.'
+COMBAT_TAG_PLUS: '&cYou are currently in combat, please wait.'
+INV_NOT_EMPTY: '&cYour inventory needs to be empty to join Sumo.'
+AUTOMATIC_HOSTNAME: The Console
+SCHEDULED_COUNTDOWN: '&aStarting in %time%.'
+DAY_OF_WEEK: '&8=====> &2%day% &8<====='
+STARTS_ON: '&a%sumo% starts at %hour%:%minute%.'
+LIST_SUMO_IDS_TITLE: '&8=====> &2%day% &8<====='
+LIST_SUMO_IDS_ENTRY: '&aScheduled ID - &e%id% &ais starting at &e%hour%:%minute% &a-
+  &e%type%'
+SAVED_KIT: '&aYou have saved the sumo kit to your current inventory.'
+RENAMED_SUMO: '&aYou have renamed %previous% to %new%.'
+REMOVED_SCHEDULE: '&aRemoved scheduled Sumo with ID: %id%'
+END_SUMO: '&6%player% &ehas ended the Sumo event.'
+STARTING_SOON: '&aStarting in %time%...'
+SUMO_FULL: '&cThe Sumo is currently full!'
+SUMO_ACTIVE: '&aActive'
+SUMO_INACTIVE: '&cNot Active'
+ACTIVE_NOW: '&a%sumo% is currently active!'
+BLOCKED_CMD: '&cYou are not allowed to execute this command while in Sumo.'
+SET_SPAWNPOINT: '&aYou have successfully set spawnpoint %pos% location for Sumo in
+  the arena %sumo%.'
+SET_LOBBY: '&aYou have successfully set the lobby spawn location for Sumo in the arena
+  %sumo%.'
+SET_FLOOR: '&aYou have successfully set the floor for Sumo in the arena %sumo%.'
+SET_SPECTATE: '&aYou have successfully set the spectate location for Sumo in the arena
+  %sumo%.'
+LEFT_CLICK: '&ePlease click a block to set the floor for Sumo.'
+CREATED_SUMO: '&aSuccessfully created Sumo arena %sumo%.'
+DELETED_SUMO: '&aSuccessfully deleted Sumo arena %sumo%.'
+RELOAD: '&aSuccessfully reloaded all Sumo configuration files.'
+IN_GAME_ONLY: '&cThis command can only be used in-game.'
+LOCATIONS_NOT_SET: '&cSumo locations have not been set for this arena.'
+ALREADY_EXISTS: '&cThis Sumo already exists.'
+ALREADY_QUEUED: '&cYou are already queued for Sumo.'
+ALREADY_IN_PROGESS: '&cThere is currently a game in progress.'
+INVALID_SUMO: '&cThis Sumo does not exist.'
+SCHEDULED_DAILY: '&aYou have successfully scheduled the Sumo %sumo% to run at %time%
+  everyday.'
+SCHEDULED_DATE: '&aYou have successfully scheduled the Sumo %sumo% at %time% on %day%/%month%.'
+SCHEDULED_WEEKLY: '&aYou have successfully scheduled the Sumo %sumo% to run at %time%
+  every week.'
+NOT_STARTED: '&cSumo has not started yet.'
+NOT_QUEUED: '&cYou are currently not queued for Sumo.'
+NOT_IN_PROGRESS: '&cThat sumo is currently not in progress.'
+NOT_ENOUGH_PLAYERS: '&cThere was not enough players to start the Sumo event.'
+NO_HELP_PAGE: '&cThis number does not exist, the max help page is %maxpage%.'
+NO_PERMISSION: '&cYou do not have permission for that command'
+INVALID_WEEKDAY: '&cYou have entered an invalid weekday: &f%validtypes%'
+INVALID_TIME: '&cYou need to define a time for the Sumo to start for example 17:00.'
+INVALID_HOUR: '&cYou have entered an incorrect value for the hour you would like the
+  Sumo to be.'
+INVALID_MINUTE: '&cYou have entered an incorrect value for the minutes you would like
+  the Sumo to be.'
+INVALID_MONTH: '&cYou have entered an incorrect value for the month you would like
+  the Sumo to be.'
+INVALID_DAY: '&cYou have entered an incorrect value for the day you would like the
+  Sumo to be.'
+INVALID_ID: '&cPlease enter a correct ID number. You can use /sumo scheduled <arena>
+  to view IDs.'
+NO_SCHEDULE: '&aNo scheduled Sumos.'
+NO_SUMO: '&aNone'
