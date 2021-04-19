@@ -30,6 +30,14 @@ public interface SumoLocation {
 	void setSpectateLocation(Location loc);
 
 	/**
+	 * Method to set the exit location
+	 * 
+	 * @param Location loc
+	 * 
+	 */
+	void setExitLocation(Location loc);
+
+	/**
 	 * Method to get the lobby world name
 	 * 
 	 * @return String
@@ -76,6 +84,14 @@ public interface SumoLocation {
 	 * 
 	 */
 	Location getSpectateLocation();
+
+	/**
+	 * Method to get the exit location for sumo
+	 * 
+	 * @return Location
+	 * 
+	 */
+	Location getExitLocation();
 
 	/**
 	 * Method to see if a spectate location is set
